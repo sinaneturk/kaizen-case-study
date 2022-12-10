@@ -1,3 +1,13 @@
+# Nasıl çalışır ?
+ 1 - Repo'yu bilgisayarınıza kopyalayın \
+    * git clone https://github.com/sinaneturk/keizen-case.git \
+ 2 - npm install komutunu çalıştırın \
+ 3 - npm start komutunu çalıştırın \
+ 4 - mobile görünüm için tarayıcınızı küçültün ve mobil ekran görüntüsü alın . (Google Chrome içindir ) \
+    * Tarayıcıda herhangi bir alana sağ tıkla -> incele \
+    * Açılan geliştirici penceresinin sol üst köşesinde iki tane üstüste geçmiş diktörgen var . Ona tıklayın \
+ 5 -  Ctrl-Shif-R tuş kombinasyounu ile sayfayı yenileyin 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

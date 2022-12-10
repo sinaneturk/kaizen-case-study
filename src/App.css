@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+div#root {
+  max-width: 999px;
+  margin: auto;
+}
+
+.bottom-navigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  bottom: 0;
+  border-top: 1px solid white;
+  width: 100%;
+  padding-top: 8px;
+  box-sizing: border-box;
+  position: absolute;
+  height: 68px;
+  background: #FFFFFF;
+  border: 1.5px solid #ECEEEF;
+  box-shadow: 0px 0px 6px 2px rgb(0 0 0 / 5%);
+  border-radius: 20px 20px 0px 0px;
+  max-width: 999px;
+  margin: auto;
+}

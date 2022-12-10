@@ -1,0 +1,97 @@
+img.image{
+    width: 375px;
+    border-bottom-left-radius: 84px;
+}
+
+.remaining-and-icon-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -60px;
+    width: 375px;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.icon {
+    width: 20%;
+}
+
+button.hemen-ketil-button {
+    width: 100%;
+    height: 60px;
+    background-color: red;
+    border-radius: 30px;
+    border: none;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.description-container p {
+    text-align: justify;
+    padding: 11px;
+    color: gray;
+    line-height: 1.5;
+}
+
+p.remaining-text {
+    margin: 0;
+    padding: 6px 17px;
+    border-radius: 15px;
+    background-color: black;
+    font-family: "Helvetica";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.541667px;
+    color: #FFFFFF;
+    margin-right: 10px;
+}
+
+h6.title {
+    font-size: 20px;
+}
+
+img.icon {
+    width: 56px;
+    border: 4px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.title-container p span {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: -0.2px;
+}
+
+.description-container {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1D1E1C;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+}
+
+.hemen-katil-container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: #F40000;
+    border-radius: 28px;
+    max-width: 999px;
+}
