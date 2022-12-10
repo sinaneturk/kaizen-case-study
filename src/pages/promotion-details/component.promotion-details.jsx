@@ -16,7 +16,7 @@ const  PromotionDetails = () => {
   const { selectedPromotion } = useSelector(state=>state.promotionsReducer);
   const {state} = useLocation();
   const { promoId } = state;
-console.log("SELE=>", selectedPromotion)
+
   const cleanPromoTitle= DOMPurify.sanitize( selectedPromotion.Title, {
     USE_PROFILES: { html: true },
   });
@@ -41,21 +41,13 @@ console.log("SELE=>", selectedPromotion)
   let content_height = window.innerHeight - 60 ;//60 for btn heeight 20 for btn's margin-bottom
   return (
     <div className="promotion-details">
-      <div className="backButton">
-        <BsFillArrowLeftCircleFill
-        onClick={goBack}
-        size={30}
-          style={{
-          position:"absolute",
-          left:10,
-          top:15,
-          zIndex:4
 
-        }}/>
-      </div>
       <div className='content-area' style={{ height:content_height,  overflowY: 'scroll', }}>
 
         <div className='image-container'>
+          <div className="backButton">
+            <BsFillArrowLeftCircleFill onClick={goBack} size={30}/>
+          </div>
           <img src={selectedPromotion.ImageUrl} className='image'/>
         </div>
 
