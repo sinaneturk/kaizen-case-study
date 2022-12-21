@@ -43,6 +43,7 @@ const Promotions = (props) => {
 
         dispatch(setFilteredPromotions(fPromotions))
         dispatch(setSelectedTag(tag))
+        setSelectedIndex(0)
     }
 
     useEffect(async ()=>{
