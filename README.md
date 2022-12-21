@@ -1,7 +1,7 @@
 # Nasıl çalışır ?
  1 - Repo'yu bilgisayarınıza kopyalayın \
     * git clone https://github.com/sinaneturk/keizen-case.git \
- 2 - npm install komutunu çalıştırın \
+ 2 - npm install vaya yarn install komutunu çalıştırın \
  3 - npm start komutunu çalıştırın \
  4 - mobile görünüm için tarayıcınızı küçültün ve mobil ekran görüntüsü alın . (Google Chrome içindir ) \
     * Tarayıcıda herhangi bir alana sağ tıkla -> incele \

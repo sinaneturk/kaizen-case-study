@@ -125,10 +125,10 @@ p.promo-title {
     height: 50px;
     transform: rotate(4deg);
     border-radius: 15px;
-    position: relative;
+    position: absolute;
     z-index: -1;
-    top: -32px;
-    margin: auto;
+    top: 322px;
+    left: 41px;
 }
 
 .carousel.carousel-slider {

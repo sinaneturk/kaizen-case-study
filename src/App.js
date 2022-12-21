@@ -13,7 +13,6 @@ const App = () => {
         <Route path="/daha-wallet" element={<DahaWallet />} />
         <Route path="/campaign/:SeoName/:Id" element={<PromotionDetails/>} />
       </Routes>
-      
     </div>
     );
 }

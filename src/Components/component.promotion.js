@@ -3,7 +3,7 @@ import DOMPurify from "dompurify";
 
 function Promotion({promo}) {
     const navigate = useNavigate();
-
+console.log("p=>", promo)
     function goToDetails(promo){
         navigate(`campaign/${promo.SeoName}/${promo.Id}`, { state: { promoId: promo.Id } })
     }
