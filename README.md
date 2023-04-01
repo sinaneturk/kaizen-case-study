@@ -1,12 +1,12 @@
-# Nasıl çalışır ?
- 1 - Repo'yu bilgisayarınıza kopyalayın \
+# How to make it work ?
+ 1 - Copy the repo to your computer with the following command \
     * git clone https://github.com/sinaneturk/keizen-case.git \
- 2 - npm install vaya yarn install komutunu çalıştırın \
- 3 - npm start komutunu çalıştırın \
- 4 - mobile görünüm için tarayıcınızı küçültün ve mobil ekran görüntüsü alın . (Google Chrome içindir ) \
-    * Tarayıcıda herhangi bir alana sağ tıkla -> incele \
-    * Açılan geliştirici penceresinin sol üst köşesinde iki tane üstüste geçmiş diktörgen var . Ona tıklayın \
- 5 -  Ctrl-Shif-R tuş kombinasyounu ile sayfayı yenileyin 
+ 2 - run npm install or yarn install \
+ 3 - run npm start \
+ 4 - For mobile dislay do the following(For Google Chrome) \
+    * Somewhere in browser right click -> inspact \
+    * On the top left corner of newly opnned window there are two (one big , one small) rectangles . click that button \
+ 5 -  With Ctrl-Shif-R (for windows) refresh page.
 
 # Getting Started with Create React App
 
